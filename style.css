@@ -1,0 +1,565 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* body{
+    overflow-x: hidden;
+} */
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
+/*** navigarion-part***/
+.nav-bar{
+    position: relative;
+    background-color: #22225b;
+    padding: 13px 0px 0px 199px;
+    width: 100%;
+    height: 67px;
+}
+.nav-bar ul li{
+    list-style: none;
+    margin-left: 70px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+.nav-bar ul .search{
+    position: absolute;
+    padding-top: -20px;
+    margin-left: 1110px;
+    margin-top: -7px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.nav-bar ul .search input{
+    background-color: rgba(229,234,255,0.3);    
+    border: none;
+}
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
+/*** table-part ***/
+.col2 table{
+    z-index: 9;
+    position: relative;
+    margin-top: -18px;
+    margin-left: 160px;
+    display: inline-flex;
+    background-color: #C9A65C;
+}
+.col2 table tr td{
+    border: 2px solid white;
+    /* padding-top: 15px; */
+    padding: 7.5px 42.5px 7.5px 42.5px;
+
+}
+.col2 table tr td a{
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    font-weight: 600;
+    /* padding-left: 75px; */
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+}
+/*** Menu hover ifect ***/
+.sub_menu_1{
+    display: none;
+}
+.sub_menu_2{
+    display: none;
+}
+.sub_menu_3{
+    display: none;
+}
+.col2 tr td:hover .sub_menu_1{
+    display: block;
+    position: absolute;
+}
+.col2 tr td:hover .sub_menu_2{
+    display: block;
+    position: absolute;
+}
+.col2 tr td:hover .sub_menu_3{
+    display: block;
+    position: absolute;
+}
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
+/*** logo ***/
+.col3 .logo{
+    position: absolute;
+    margin-top: -74px;
+    margin-left: 703px;
+    z-index: 10;
+}
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
+/*** slider ***/
+.col4{
+    z-index: 8;
+    margin-top: -27px;
+}
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
+/*** text in marquee tag ***/
+.col5{
+    background-color: #22225E;
+}
+.col5 .m-text{
+    height: 50px;
+    padding: 11px 0px;
+}
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
+/*** card & images ***/
+.box{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 20px;
+    background-color: #eef0f2;
+}
+.boxs{
+    width: 190px;
+    height: 230px;
+    background-color: white;
+    margin-left: 20px;
+}
+.img{
+    position: absolute;
+    border: 1px solid black;
+    margin-top: -558px;
+    margin-left: 690px;
+    height: 520px;
+    width: 800px;
+}
+.border-box{
+    width: 115px;
+    margin-left: 40px;
+    /* align-items: center; */
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 15px;
+    border-radius: 50%;
+    height: 115px;
+    background-color: #f5eddd;
+}
+.sub-box{
+    width: 95px;
+    /* margin-left: 38px;
+    margin-top: 30px; */
+    border-radius: 50%;
+    height: 95px;
+    background-color: #C9A65C;
+    padding-top: 25px;
+}
+.border-box:hover{
+    background-color: #d5d5f9;
+    transition: 0.5s;
+}
+.sub-box:hover{
+    background-color: #22225b;
+    transition: 0.5s;
+}
+.sub_box-text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.text{
+    text-align: center;
+    padding-top: 10px;
+}
+/* .bg-img{
+    position: relative;
+    width: 100%;
+} */
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
+/* main part  */
+.bg-border{
+    /* border: 2px solid black; */
+    height: 800px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.bg-border .bgimge img{
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+}
+.maininnertext{
+    display: inline-flex;
+    position: relative;
+    /* height: 200px;
+    border: 2px solid black; */
+}
+.maininnertext p2{
+    padding-left: 200px;
+    padding-top: 30px;
+    position: relative;
+    color:#22225b;
+    font-weight: 700;
+}
+.maininnertext p1{
+    padding-top: 30px;
+    position: relative;
+    color: #C9A65C;
+    font-weight: 700;
+}
+.all-marq{
+    margin-top: 100px;
+    margin-left: -350px;
+    border-right: 3px solid #C9A65C;
+    /* border-left: 2px solid black; */
+    position: relative;
+}
+.marq1{
+    /* width: 200px; */
+    position: relative;
+    background-color: rgba(204,169,95,0.10);
+}
+.marq2{
+    margin-top: 10px;
+    position: relative;
+    background-color: rgba(204,169,95,0.10);
+}
+.main_btn{
+    position: relative;
+    background-color: #22225b;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.tow-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tow-card .textpart_card{
+    margin-top:-670px;
+    margin-left: -60px;
+}
+.tow-card .card1{
+    margin-left: -450px;
+    /* padding-left: -500px; */
+    box-shadow: 5px 5px 5px 5px darkgray;
+    margin-top: 50px;
+    background-color: #22225b;
+    /* border: 2px solid #22225b; */
+    height: 570px;
+}
+.tow-card .card2{
+    margin-left: 20px;
+    /* padding-left: -500px; */
+    margin-top: 50px;
+    background-color: #22225b;
+    box-shadow: 5px 5px 5px 5px darkgray;
+    /* border: 2px solid #22225b; */
+    height: 570px;
+}
+.card-btn1{
+    width: 90px;
+    margin: auto;
+    height: 20px;
+    font-size: 13px;
+    margin-top: 55px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    background-color: #C9A65C;
+    color: white;
+}
+.card-btn2{
+    width: 90px;
+    margin: auto;
+    margin-top: 55px;
+    font-size: 13px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    background-color: #C9A65C;
+    color: white;
+}
+.small_ii{
+    margin: auto;
+    margin-left: -17px;
+    margin-top: 50px;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    background-color: #22225b;
+}
+.small_ii:hover{
+    background-color: #C9A65C;
+}
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
+/** col_9 part **/
+.col_9{
+    height: 425px;
+    background-color: #22225b;
+    justify-content: center;
+}
+.col9_containt1{
+    /* padding-top: 20px; */
+    margin-top: -285px;
+    padding-left: 250px;
+    display: flex;
+}
+.col9_containt2{
+    margin-top: 10px;
+    padding-left: 250px;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+}
+/* .col_9_logo{
+    position: absolute;
+    align-items: center;
+}
+.col_9_logo .col_9_img img{
+    height: 90px;
+} */
+.col9_containt2 p{
+    text-align: center;
+    font-size: 20px;
+    color: #22225b;
+    justify-content: center;
+    padding-top: 8px;
+}
+.col9_containt2 p:hover{
+    color: #C9A65C;
+}
+.col9_containt1 p:hover{
+    color: #C9A65C;
+}
+.col9_containt1 p{
+    text-align: center;
+    font-size: 20px;
+    color: #22225b;
+    justify-content: center;
+    padding-top: 8px;
+}
+/* .col_9 .col9_text{
+
+} */
+.col_9 .col9_text_1{
+    color: #C9A65C;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.col_9 .col9_text_2{
+    position: absolute;
+    margin-top: -77px;
+    color: #C9A65C;
+    margin-left: 440px;
+    font-size: 60px;
+}
+.col_9 .col9_text .col9_text_2 p2{
+    opacity: 0.2;
+    font-weight: 500;
+}
+.col_9 .col9_text .col9_text_2 p2:hover{
+    font-size: 66px;
+    transition: 2s;
+    margin-top: -30px;
+    margin-left: -40px;
+}
+.col9_p_1{
+    height: 120px;
+    width: 240px;
+    border-radius: 0% 15% 0% 15%;
+    background-color: white;
+}
+.col9_p_2{
+    height: 120px;
+    width: 240px;
+    margin-left: 15px;
+    border-radius: 0% 15% 0% 15%;
+    background-color: white;
+}
+.col9_p_3{
+    height: 120px;
+    width: 240px;
+    margin-left: 15px;
+    border-radius: 15% 0% 15% 0%;
+    background-color: white;
+}
+.col9_p_4{
+    height: 120px;
+    width: 240px;
+    margin-left: 15px;
+    border-radius: 15% 0% 15% 0%;
+    background-color: white;
+}
+.col9_p_5{
+    height: 120px;
+    width: 240px;
+    border-radius: 15% 0% 15% 0%;
+    background-color: white;
+}
+.col9_p_6{
+    height: 120px;
+    width: 240px;
+    margin-left: 15px;
+    border-radius: 15% 0% 15% 0%;
+    background-color: white;
+}
+.col9_p_7{
+    height: 120px;
+    width: 240px;
+    margin-left: 15px;
+    border-radius: 0% 15% 0% 15%;
+    background-color: white;
+}
+.col9_p_8{
+    height: 120px;
+    width: 240px;
+    margin-left: 15px;
+    border-radius: 0% 15% 0% 15%;
+    background-color: white;
+}
+.col9_sub1{
+    height: 110px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid #C9A65C;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.col9_sub1:hover{
+    background-color: #22225b;
+    transition-duration: 0.5s;
+}
+.col9_sub2{
+    height: 110px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid #C9A65C;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.col9_sub2:hover{
+    background-color: #22225b;
+    transition-duration: 0.5s;
+}
+.border_1{
+    border-radius: 0% 15% 0% 15%;
+}
+.border_2{
+    border-radius: 15% 0% 15% 0%;
+}
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
+.col10 .col10_bg{
+    background-image: url("images/col10_bg.png");
+    height: 460px;
+    width: 100%;
+    margin-top: 35px;
+}
+.col10 .col10_bg .col10_text .col10_text_1{
+    color: #C9A65C;
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.col10 .col10_bg .col10_text .col10_text_2{
+    position: absolute;
+    margin-top: -76px;
+    color: #C9A65C;
+    margin-left: 620px;
+    font-size: 55px;
+}
+.col10 .col10_bg .col10_text .col10_text_2 p2{
+    opacity: 0.2;
+    font-weight: 500;
+}
+.col10 .col10_bg .col10_text .col10_text_2 p2:hover{
+    font-size: 60px;
+    transition: 2s;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+.col10_contents .col10_part1{
+    position: relative;
+    height: 210px; 
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.col10_contents .col10_part1 .face{
+    position: absolute;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: .5s;
+}
+.col10_contents .col10_part1 .col10_front_1{
+    height: 100%;
+    width: 100%;
+    transform: perspective(600px) rotateY(0deg);
+}
+.col10_contents .col10_part1 .col10_front_1 img{
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
+.col10_contents .col10_part1 .col10_back_1{
+    transform: perspective(600px) rotateY(180deg);
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.col10_contents .col10_part1 .col10_back_1 .col10_btn button{
+    background-color: #22225b;
+    margin-top: 95px;
+    margin-left: 53px;
+    height: 30px;
+    width: 87px;
+    border-radius: 2px;
+}
+.col10_contents .col10_part1 .col10_back_1 .col10_btn button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.col10_contents .col10_part1:hover .col10_front_1{
+    transform: perspective(600px) rotateY(180deg);
+}
+.col10_contents .col10_part1:hover .col10_back_1{
+    transform: perspective(600px) rotateY(360deg);
+}
+.col10_text2{
+    height: 200px;
+    padding-top: 220px;
+    padding-left: -20px;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+
+/* <p>--------------------------------------------------------------------------------------------------</p>  */
