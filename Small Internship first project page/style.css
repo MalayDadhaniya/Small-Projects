@@ -1,0 +1,113 @@
+/* ** all-page part ** */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+}
+
+/* ** background-img part ** */
+.fluid-container{
+    background-image: url('image/bg_img.png');
+    height: auto;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ** inner-box part ** */
+.innerdiv{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    margin: auto;
+}
+
+/* ***** Media Qu ***** */
+@media only screen and (min-width: 700px) {
+    .fluid-container{
+        padding-top: 45px;
+    }
+    .innerdiv{
+        width: 560px;
+        height: 400px;
+    }
+    .btn-part button{
+        height: 38px;
+        width: 150px;
+    }
+    .input-box-btn .input-box input{
+        height: 40px;
+        width: 450px;
+    }
+    .innerdiv .logo .logo-title p{
+        font-size: 55px;
+    }
+    .innerdiv .logo img{
+        height: 100px;
+    }
+    .innerdiv .title h1{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .innerdiv .input-part .input-text{
+        margin-top: 35px;
+        margin-left: 53px;
+    }
+    .innerdiv .input-part .input-text p{
+        font-size: 10px;
+        padding-bottom: 2px;
+    }
+}
+
+.innerdiv .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    color: rgb(2, 111, 2);
+}
+.innerdiv .title-part{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.innerdiv .title h1{
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+/* ** input-part ** */
+::placeholder {
+    padding-left: 10px;
+    color: rgb(217, 210, 210);
+}
+.innerdiv form{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.input-box-btn .input-box input{
+    padding-left: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 1px solid rgb(217, 210, 210);
+}
+form .btn-part button{
+    background-color: rgb(13, 101, 13);
+    font-size: 0.7vw;
+    cursor: pointer;
+    margin-top: 30px;
+    color: rgb(230, 224, 224);
+    border-radius: 3px;
+    border: none;
+}
+form .btn-part button:hover{
+    background-color: rgb(2, 116, 2);
+}

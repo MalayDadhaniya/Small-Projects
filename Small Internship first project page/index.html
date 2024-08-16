@@ -1,0 +1,54 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="fluid-container bg-image" style="background-image: url('images/bg_img.png');
+        height: 100vh"> 
+            <div class="innerdiv">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="images/agri_dr-logo.png" alt="logo">
+                    </div>
+                    <div class="logo-title">
+                        <p>Agri dr.</p>
+                    </div>
+                </div>
+                <div class="title-part">
+                    <div class="title">
+                        <h1>WELCOME BACK,</h1>
+                    </div>
+                </div>
+                <div class="input-part">
+                    <div class="input-text">
+                        <p>Phone Number</p>
+                    </div>
+                    <div class="input-box-btn">
+                        <form>
+                            <div class="input-box">
+                                <input type="tel" placeholder="99999 99999" maxlength="10" pattern="\d{10}"  onkeyup="numberonly(this)"  id="input" required>
+                            </div>
+                            <div class="btn-part">
+                                <a href="#"><button>REQUEST OTP</button></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            function numberonly(input){
+                let num = /[^0-9]/gi;
+                input.value = input.value.replace(num,"");
+            }
+        </script>
+
+    </body>
+    
+</html>
