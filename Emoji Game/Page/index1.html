@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Game</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="scoreContainer" id="currentScore">0</div>
+        <div class="stopContainer" id="stopGame">Stop</div>
+        <img src="../images/targat.gif" alt="target" id="myImg">
+        <h1>-- Click the picture and score high in 1 minute!</h1>
+        <div class="resultScore">
+            <center>
+                <img src="../images/resultImg.gif" class="resultImg" alt="resultImg">
+                <div class="result" id="result">0</div>
+                <button id="playAgain" onclick="location.reload()">Play Again</button>
+            </center>
+        </div>
+        <div class="seconds" id="countdown">60</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script1.js"></script>
+</body>
+
+</html>

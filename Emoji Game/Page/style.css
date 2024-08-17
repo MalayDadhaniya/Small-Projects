@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.mainContainer {
+    background: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnContainer p {
+    color: rgba(255, 255, 255, 0.833);
+    font-size: 30px;
+    padding: 20px;
+}
+
+.btnContainer p button {
+    margin-left: 3vw;
+}
+
+.btnContainer {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 400px;
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #324d1a9d;
+}
+
+center {
+    margin-top: 60px;
+    z-index: 999;
+}
+
+center img {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.6) 1.95px 1.95px 2.6px;
+}
+
+.btnContainer button {
+    border: 1px solid rgba(0, 0, 0, 0.74);
+    background-color: #CE9A05;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

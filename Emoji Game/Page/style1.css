@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+.mainContainer {
+    background: url("../images/bg.png") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.mainContainer img {
+    cursor: pointer;
+    border: 2px solid #a7a3a3;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 40px;
+}
+
+.scoreContainer,
+.stopContainer {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 200px;
+    border-radius: 0 0 70px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.scoreContainer {
+    background-color: #CE9A05;
+}
+
+.stopContainer {
+    right: 20px;
+    background-color: #CE9A05;
+    cursor: pointer;
+}
+
+.stopContainer:hover {
+    color: white;
+    transition: 0.2s;
+}
+
+.resultScore {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 400px;
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #324d1a9d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultImg {
+    border: none;
+    height: 200px;
+}
+
+.result {
+    background-color: #CE9A05;
+    font-size: 60px;
+    height: 120px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #CE9A05;
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
+
+.seconds {
+    position: fixed;
+    bottom: 15%;
+    left: 8%;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.255);
+    font-size: 400px;
+    font-weight: 700;
+}
