@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.all-divs{
+    background-color: rgb(243, 243, 248);
+}
+.hedding1{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    font-size: 35px;
+}
+.hedding{
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 15px;
+    color: white;
+}
+.nev{
+    display: flex;
+    background-color: rgb(53, 69, 150);
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 99;
+}
+.nev ul{
+    display: flex;
+}
+.nev ul .list{
+    margin-left: 650px;
+}
+.nev ul .list li{
+    display: inline-block;
+    padding: 0px 15px;
+    margin-top: 20px;  
+    list-style: none;
+}
+.nev ul .list li a{
+    text-decoration: none;
+    color: white;
+    padding: 2px 10px;
+    border: 1px solid white;
+}
+.nev ul .list li a:hover{
+    color: rgb(53, 69, 150);
+    background-color: white;
+}
+.nev ul .search a{
+    text-decoration: none;
+    background-color: rgb(53, 69, 150);
+    color: white;
+    padding: 0px 6px;
+}
+.nev ul .search a:hover{
+    color: rgb(53, 69, 150);
+    background-color: white;
+}
+
+.nev ul .search{
+    margin-top: 20px;
+}
+.card-container{
+    display: flex;
+    padding-left: 5px;
+    padding-top: 30px;
+    overflow-x: auto;
+    width: 100%;
+}
+.card-container::-webkit-scrollbar{
+    width: 0;
+}
+.card-container .card{
+    border: 1px solid black;
+    filter: brightness(98%);
+    width: 257px;
+    height: 300px;
+    margin-left: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+}
+.card-container .card:hover{
+    background-color: rgb(217, 219, 227);
+    margin-top: -4px;
+}
+.card-container .card-img-top{
+    border-radius: 5px;
+}
+.card-container .card-title{
+    padding: 5px;
+}
+.card-container .card-text{
+    padding: 5px;
+}
+.btn{
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: rgb(58, 74, 152);
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+.marq{
+    background-color: rgb(58, 74, 152);
+    height: 50px;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+}
+.background-img img{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    filter: brightness(70%);
+}
+.background-img h1{
+    position: absolute;
+    margin-top: -230px;
+    color: rgb(184, 117, 117);
+    margin-left: 450px;
+    font-size: 80px;
+}
+.about{
+    background-color: rgb(58, 74, 152);
+    width: 100%;
+    height: 740px;
+}
+.about .about-text h4{
+    padding: 20px 30px 0px 30px;
+    text-align: center;
+    color: rgb(220, 212, 212);
+}
+.about .about-text h1{
+    color: rgb(220, 212, 212);
+    text-align: center;
+    padding: 60px 0px 15px 0px;
+}
+.contect{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(243, 243, 248);
+}
+.contect-all{
+    position: absolute;
+    display: inline-block;
+    margin-top: 40px;
+}
+.contect .contect-text1{
+    margin-left: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.contect-img img{
+    margin-left: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+.contect-text form{
+    font-size: 20px;
+    margin-top: -300px;
+    margin-left: 800px;
+}
+.about-img{
+    display: flex;
+}
+.about-img img{
+    display: inline-block;
+    padding: 70px 0px 0px 98px;
+    filter: brightness(90%);
+}
+.about-img img:hover{
+    margin-top: -10px;
+}
+.about-map-text ul li{
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(243, 243, 248);
+}
+.submit-btn{
+    background-color: rgb(53, 69, 150);
+    border: 1px solid white;
+    color: white;
+}
+.submit-btn:hover{
+    color: rgb(53, 69, 150);
+    background-color: white;
+    border: 2px solid rgb(53, 69, 150);
+}
+.email-part{
+    background-color: rgb(53, 69, 150);
+    color: rgb(243, 243, 248);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 15px;
+}
